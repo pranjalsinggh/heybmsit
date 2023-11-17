@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#chatbox {
+    width: 400px;
+    border: 1px solid #ccc;
+    padding: 1rem;
+}
+
+#messages {
+    max-height: 300px;
+    overflow-y: scroll;
+    margin-bottom: 1rem;
+}
+
+#userInput {
+    width: 80%;
+    padding: 0.5rem;
+    margin-right: 0.5rem;
+}
+
+#sendBtn {
+    padding: 0.5rem 1rem;
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+}

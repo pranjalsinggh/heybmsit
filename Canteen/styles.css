@@ -1,0 +1,26 @@
+
+
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+main {
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem;
+}
+
+#menu, #order, #seating {
+    width: 30%;
+}
+
+button {
+    padding: 0.5rem 1rem;
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
